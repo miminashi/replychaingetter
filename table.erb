@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>kaoricky25</title>
+    <link rel="stylesheet" type="text/css" href="result.css">
+  </head>
+  <body>
+    <% $root_tweets.each do |t| %>
+      <div class="root-tweet">
+        <h4><%= t.screen_name %></h4>
+        <p><%= t.text %></p>
+        <p class="date"><%= t.created_at.getlocal.to_s %></p>
+        <% if t.replies.size > 0 %>
+          <%= render_inner_table(t) %>
+        <% end %>
+      </div>
+    <% end %>
+  </body>
+</html>
+

@@ -1,0 +1,7 @@
+あるユーザのTLとそのユーザへのreplyを取得して, トラディッショナルなWeb掲示板風に書き出すツール
+
+$ ruby -Ku gettimeline.rb
+$ ruby -Ku getreply.rb
+$ ruby -Ku rebuild.rb
+$ ruby -Ku buildhtml.rb
+

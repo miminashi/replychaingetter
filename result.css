@@ -1,0 +1,16 @@
+h4 {
+  margin: 0px;
+  padding: 0px;
+}
+div {
+  border: solid;
+  border-width: 2px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+div.root-tweet {
+  margin-bottom: 15px;
+}
+p.date {
+  font-size: 8pt;
+}
